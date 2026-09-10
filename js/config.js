@@ -13,12 +13,12 @@ export const SITE_CONFIG = {
   slogan: "Centro Integral de Neumáticos & Servicios Automotrices",
   experienceYears: 15,
   satisfiedClients: 5000,
-  
+
   // WhatsApp Principal para Cotizaciones (Formato internacional sin + ni guiones para enlace wa.me)
   // Ejemplo Argentina: 549 + código de área sin 0 + número sin 15 -> ej: 5491134567890
-  whatsappNumber: "5491134567890",
-  whatsappDisplay: "+54 9 11 3456-7890",
-  
+  whatsappNumber: "5493525405771",
+  whatsappDisplay: "+54 9 3525 40-5771",
+
   // Canales de Contacto Directo
   phone: "011 4855-9200",
   phoneRaw: "01148559200",
@@ -26,14 +26,14 @@ export const SITE_CONFIG = {
   address: "Av. Warnes 1420, CABA, Buenos Aires",
   addressNotes: "A 3 cuadras de Av. Juan B. Justo - Estacionamiento propio para clientes",
   googleMapsUrl: "https://maps.google.com/?q=Av.+Warnes+1420,+Buenos+Aires",
-  
+
   // Horarios de Atención
   schedule: {
     weekdays: "Lunes a Viernes: 08:00 a 18:30 hs",
     saturdays: "Sábados: 08:30 a 13:30 hs",
     sundays: "Domingos y Feriados: Cerrado"
   },
-  
+
   // Redes Sociales
   instagram: "@neumaticosargentinos",
   instagramUrl: "https://instagram.com/neumaticosargentinos",
@@ -46,7 +46,7 @@ export const SITE_CONFIG = {
   dataSource: {
     // Modo actual: 'local' (usa data/vehicles.json). Cambiar a 'google_sheets' cuando esté listo.
     mode: 'local',
-    
+
     // Configuración para futura integración directa con Google Sheets:
     googleSheets: {
       // ID del Google Sheet público (extraído de la URL https://docs.google.com/spreadsheets/d/TU_ID_AQUI/edit)
