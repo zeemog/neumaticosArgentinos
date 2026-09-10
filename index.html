@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEUMÁTICOS ARGENTINOS | Encontrá las cubiertas ideales para tu vehículo</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Centro integral de neumáticos y servicios para vehículos. Buscador de medidas por marca, modelo y año. Cotización inmediata por WhatsApp.">
+  <meta name="keywords" content="neumaticos, cubiertas, gomería, medidas de neumaticos, toyota, volkswagen, ford, fiat, chevrolet, alineacion, balanceo, warnes, buenos aires">
+  <meta name="author" content="Neumáticos Argentinos">
+  
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23f59e0b'><circle cx='12' cy='12' r='10' stroke='%23f59e0b' stroke-width='2' fill='none'/><circle cx='12' cy='12' r='4' fill='%23f59e0b'/><path d='M12 2v4M12 18v4M2 12h4M18 12h4' stroke='%23f59e0b' stroke-width='2'/></svg>">
+
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       HEADER
+       ========================================================================= -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      
+      <!-- Logo Ficticio -->
+      <a href="#inicio" class="brand-logo" id="brand-logo-link">
+        <div class="brand-icon-wrapper">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" fill="none"/>
+            <circle cx="12" cy="12" r="3.5"/>
+            <line x1="12" y1="3" x2="12" y2="7" stroke="currentColor" stroke-width="2"/>
+            <line x1="12" y1="17" x2="12" y2="21" stroke="currentColor" stroke-width="2"/>
+            <line x1="3" y1="12" x2="7" y2="12" stroke="currentColor" stroke-width="2"/>
+            <line x1="17" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="brand-text-group">
+          <span class="brand-name" data-config="companyName">NEUMÁTICOS ARGENTINOS</span>
+          <span class="brand-tagline">Centro Oficial del Automotor</span>
+        </div>
+      </a>
+
+      <!-- Navegación Principal -->
+      <nav aria-label="Navegación principal">
+        <ul class="nav-menu" id="main-nav-menu">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#buscador" class="nav-link">Buscar por vehículo</a></li>
+          <li><a href="#neumaticos" class="nav-link">Neumáticos</a></li>
+          <li><a href="#empresa" class="nav-link">Empresa</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botón Destacado Header & Mobile Toggle -->
+      <div class="header-cta-group">
+        <a href="#" class="btn btn-whatsapp-header js-whatsapp-general-btn" id="header-whatsapp-btn" target="_blank" rel="noopener noreferrer">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+          </svg>
+          <span>Cotizar por WhatsApp</span>
+        </a>
+
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Abrir menú de navegación">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- =======================================================================
+         HERO SECTION
+         ======================================================================= -->
+    <section class="hero-section" id="inicio">
+      <div class="hero-backdrop" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          
+          <div class="hero-badge-pill">
+            <span class="pulse-dot"></span>
+            <span>Atención Inmediata en Salón y WhatsApp</span>
+          </div>
+
+          <h1 class="hero-title">
+            Encontrá las cubiertas ideales para tu <span class="text-gradient-amber">vehículo</span>
+          </h1>
+
+          <p class="hero-description">
+            Seleccioná la marca y el modelo de tu vehículo y conocé qué medida de neumático necesitás con especificaciones técnicas oficiales.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#buscador" class="btn btn-primary" id="hero-btn-search">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <span>Buscar mi cubierta</span>
+            </a>
+
+            <a href="#" class="btn btn-secondary js-whatsapp-general-btn" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+              </svg>
+              <span>Asesoría personalizada</span>
+            </a>
+          </div>
+
+          <div class="hero-trust-badges">
+            <div class="trust-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Garantía Oficial de Fabricante</span>
+            </div>
+            <div class="trust-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Colocación sin cargo</span>
+            </div>
+            <div class="trust-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Envíos a todo el país</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Tarjeta Visual Lateral -->
+        <div class="hero-visual-card">
+          <span class="badge-floating">Stock Permanente</span>
+          <img src="assets/images/hero-tire.jpg" alt="Neumático de alta gama y llanta en taller" class="visual-tire-preview-img" loading="eager">
+          <div class="visual-card-caption">
+            <h4>Las mejores marcas internacionales</h4>
+            <p>Pirelli • Bridgestone • Michelin • Goodyear • Firestone • Continental</p>
+            <a href="#buscador" class="btn btn-primary" style="width: 100%; font-size: 0.9rem; padding: 10px 16px;">
+              Comprobar mi medida ahora
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         BUSCADOR DE VEHÍCULO (CARACTERÍSTICA PRINCIPAL)
+         ======================================================================= -->
+    <section class="search-section" id="buscador">
+      <div class="container">
+        
+        <div class="section-header-center">
+          <span class="section-badge">Buscador Inteligente</span>
+          <h2 class="section-title">¿Qué neumático lleva tu auto?</h2>
+          <p class="section-subtitle">
+            Seguí estos 3 simples pasos para conocer la medida original recomendada por el fabricante y solicitar tu presupuesto al instante.
+          </p>
+        </div>
+
+        <!-- Contenedor del Componente JavaScript -->
+        <div id="vehicle-search-container">
+          <!-- Inyectado dinámicamente por VehicleSearchComponent -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECCIÓN EMPRESA
+         ======================================================================= -->
+    <section class="company-section" id="empresa">
+      <div class="container">
+        
+        <div class="company-grid">
+          
+          <div class="company-content">
+            <span class="section-badge blue">Sobre Nosotros</span>
+            <h3>Trayectoria y pasión por el servicio automotriz</h3>
+            
+            <p class="company-lead-text">
+              Somos una empresa especializada en neumáticos y servicios para vehículos. Trabajamos para ofrecer asesoramiento personalizado y las mejores alternativas para cada necesidad.
+            </p>
+            
+            <p class="company-sub-text">
+              Contamos con equipamiento de última generación para alineación 3D, balanceo computarizado y cambio de neumáticos en tiempo récord, priorizando siempre la seguridad y confort de marcha de tu vehículo en ruta o ciudad.
+            </p>
+
+            <div class="company-pillars">
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                </div>
+                <div>
+                  <h5>Seguridad Certificada</h5>
+                  <p>Trabajamos sólo con neumáticos homologados y normas IRAM.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                <div>
+                  <h5>Atención Sin Turno Previo</h5>
+                  <p>Llegás a nuestro local y te atendemos de forma inmediata.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="company-visual">
+            <img src="assets/images/tire-car.jpg" alt="Centro de servicios y neumáticos" style="border-radius: var(--radius-lg); border: 1px solid var(--border-subtle); box-shadow: var(--shadow-lg);" loading="lazy">
+          </div>
+
+        </div>
+
+        <!-- Estadísticas de la Empresa (Animadas con JS) -->
+        <div class="company-stats-strip">
+          <div class="stat-box">
+            <div class="stat-number" data-target="15" data-prefix="+">15+</div>
+            <div class="stat-label">Años de experiencia</div>
+            <div class="stat-desc">En el rubro automotriz nacional</div>
+          </div>
+
+          <div class="stat-box">
+            <div class="stat-number" data-target="5000" data-prefix="+">+5.000</div>
+            <div class="stat-label">Clientes satisfechos</div>
+            <div class="stat-desc">Particulares y flotas corporativas</div>
+          </div>
+
+          <div class="stat-box">
+            <div class="stat-number" data-target="100" data-suffix="%">100%</div>
+            <div class="stat-label">Asesoramiento personalizado</div>
+            <div class="stat-desc">Técnicos dedicados para cada consulta</div>
+          </div>
+
+          <div class="stat-box">
+            <div class="stat-number" data-target="25000" data-prefix="+">+25.000</div>
+            <div class="stat-label">Neumáticos colocados</div>
+            <div class="stat-desc">En nuestros talleres especializados</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECCIÓN CATEGORÍAS DE NEUMÁTICOS
+         ======================================================================= -->
+    <section class="categories-section" id="neumaticos">
+      <div class="container">
+        
+        <div class="section-header-center">
+          <span class="section-badge">Nuestras Líneas</span>
+          <h2 class="section-title">Neumáticos para cada tipo de vehículo</h2>
+          <p class="section-subtitle">
+            Disponemos de cubiertas homologadas para todas las aplicaciones y estilos de conducción.
+          </p>
+        </div>
+
+        <div class="categories-grid">
+          
+          <!-- Card 1: Autos -->
+          <div class="category-card">
+            <div class="category-card-img-wrapper">
+              <img src="assets/images/tire-car.jpg" alt="Neumáticos para Autos y Sedanes" loading="lazy">
+              <span class="category-badge-overlay">Línea Pasajeros</span>
+            </div>
+            <div class="category-card-body">
+              <h3 class="category-title">Neumáticos para autos</h3>
+              <p class="category-desc">
+                Confort de marcha, bajo nivel sonoro y excelente frenado en piso seco y mojado para sedanes, hatchbacks y deportivos.
+              </p>
+              <div class="category-popular-sizes">
+                <span class="popular-size-pill">175/65 R14</span>
+                <span class="popular-size-pill">185/60 R15</span>
+                <span class="popular-size-pill">205/55 R16</span>
+              </div>
+              <a href="#" class="btn btn-primary" data-category-quote="Autos y Sedanes" target="_blank" rel="noopener noreferrer">
+                Consultar por esta categoría
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2: SUV -->
+          <div class="category-card">
+            <div class="category-card-img-wrapper">
+              <img src="assets/images/tire-suv.jpg" alt="Neumáticos para SUV y Crossovers" loading="lazy">
+              <span class="category-badge-overlay">Línea Crossover</span>
+            </div>
+            <div class="category-card-body">
+              <h3 class="category-title">Neumáticos para SUV</h3>
+              <p class="category-desc">
+                Mayor resistencia estructural y adherencia optimizada para vehículos más pesados y viajes en ruta de larga distancia.
+              </p>
+              <div class="category-popular-sizes">
+                <span class="popular-size-pill">205/65 R15</span>
+                <span class="popular-size-pill">215/65 R16</span>
+                <span class="popular-size-pill">225/50 R18</span>
+              </div>
+              <a href="#" class="btn btn-primary" data-category-quote="SUV y Crossovers" target="_blank" rel="noopener noreferrer">
+                Consultar por esta categoría
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3: Camionetas / 4x4 -->
+          <div class="category-card">
+            <div class="category-card-img-wrapper">
+              <img src="assets/images/tire-truck.jpg" alt="Neumáticos para Camionetas y Pickups 4x4" loading="lazy">
+              <span class="category-badge-overlay">Línea Pickups 4x4</span>
+            </div>
+            <div class="category-card-body">
+              <h3 class="category-title">Neumáticos para camionetas</h3>
+              <p class="category-desc">
+                Cubiertas All-Terrain (A/T), Mud-Terrain (M/T) y Highway (H/T) para pickups medianas y grandes sometidas a máxima exigencia.
+              </p>
+              <div class="category-popular-sizes">
+                <span class="popular-size-pill">245/65 R17</span>
+                <span class="popular-size-pill">265/65 R17</span>
+                <span class="popular-size-pill">265/60 R18</span>
+              </div>
+              <a href="#" class="btn btn-primary" data-category-quote="Camionetas y 4x4" target="_blank" rel="noopener noreferrer">
+                Consultar por esta categoría
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 4: Utilitarios -->
+          <div class="category-card">
+            <div class="category-card-img-wrapper">
+              <img src="assets/images/hero-tire.jpg" alt="Neumáticos para Utilitarios y Furgones" loading="lazy">
+              <span class="category-badge-overlay">Línea Comercial</span>
+            </div>
+            <div class="category-card-body">
+              <h3 class="category-title">Neumáticos para utilitarios</h3>
+              <p class="category-desc">
+                Compuestos de alta durabilidad y telas reforzadas (Carga 8PR / C) diseñados para el trabajo diario, flotas y furgones.
+              </p>
+              <div class="category-popular-sizes">
+                <span class="popular-size-pill">175/70 R14 88T</span>
+                <span class="popular-size-pill">185/65 R15 C</span>
+                <span class="popular-size-pill">195/70 R15 C</span>
+              </div>
+              <a href="#" class="btn btn-primary" data-category-quote="Utilitarios y Furgones" target="_blank" rel="noopener noreferrer">
+                Consultar por esta categoría
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECCIÓN SERVICIOS DE TALLER / GOMERÍA
+         ======================================================================= -->
+    <section class="services-section" id="servicios">
+      <div class="container">
+        
+        <div class="section-header-center">
+          <span class="section-badge blue">Servicio Integral</span>
+          <h2 class="section-title">Cuidado profesional para tu vehículo</h2>
+          <p class="section-subtitle">
+            Instalaciones equipadas con tecnología alemana e italiana de calibración y balanceo.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="m4.93 4.93 4.24 4.24"></path><path d="m14.83 9.17 4.24-4.24"></path><path d="m14.83 14.83 4.24 4.24"></path><path d="m9.17 14.83-4.24 4.24"></path><circle cx="12" cy="12" r="4"></circle></svg>
+            </div>
+            <h4>Alineación 3D Computarizada</h4>
+            <p>Diagnóstico láser de convergencia, comba y avance para evitar desgastes irregulares y asegurar la estabilidad en ruta.</p>
+            <a href="#" class="service-quote-link" data-service-quote="Alineación 3D Computarizada" target="_blank" rel="noopener noreferrer">Pedir turno por WhatsApp →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2v20"></path><path d="M2 12h20"></path></svg>
+            </div>
+            <h4>Balanceo Dinámico Digital</h4>
+            <p>Elimina vibraciones en el volante y tablero a cualquier velocidad, protegiendo rodamientos y tren delantero.</p>
+            <a href="#" class="service-quote-link" data-service-quote="Balanceo Dinámico Digital" target="_blank" rel="noopener noreferrer">Pedir turno por WhatsApp →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+            </div>
+            <h4>Reparación y Vulcanizado</h4>
+            <p>Reparación técnica de pinchaduras en caliente y frío con parches radiales homologados que garantizan hermeticidad.</p>
+            <a href="#" class="service-quote-link" data-service-quote="Reparación y Vulcanizado" target="_blank" rel="noopener noreferrer">Pedir turno por WhatsApp →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+            </div>
+            <h4>Válvulas y Sensores TPMS</h4>
+            <p>Cambio de válvulas de seguridad de alta presión y programación/reseteo de sensores electrónicos TPMS.</p>
+            <a href="#" class="service-quote-link" data-service-quote="Válvulas y Sensores TPMS" target="_blank" rel="noopener noreferrer">Pedir turno por WhatsApp →</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECCIÓN CONTACTO
+         ======================================================================= -->
+    <section class="contact-section" id="contacto">
+      <div class="container">
+        
+        <div class="section-header-center">
+          <span class="section-badge">Canales Directos</span>
+          <h2 class="section-title">Contactate con nosotros</h2>
+          <p class="section-subtitle">
+            Estamos disponibles para asesorarte en la compra de neumáticos y reserva de turnos de taller.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Panel de Contactos -->
+          <div class="contact-info-panel">
+            
+            <!-- WhatsApp -->
+            <div class="contact-card-item">
+              <div class="contact-icon-wrapper whatsapp">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h5>WhatsApp Comercial</h5>
+                <p>Respuesta inmediata de nuestro equipo de ventas.</p>
+                <a href="#" class="js-whatsapp-general-btn" target="_blank" rel="noopener noreferrer" data-config="whatsappDisplay">+54 9 11 3456-7890</a>
+                <div>
+                  <a href="#" class="contact-link-action js-whatsapp-general-btn" target="_blank" rel="noopener noreferrer">Abrir chat en WhatsApp →</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Teléfono Fijo -->
+            <div class="contact-card-item">
+              <div class="contact-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h5>Línea Telefónica</h5>
+                <p>Atención al cliente y consultas de stock.</p>
+                <a href="tel:01148559200" data-config="phone">011 4855-9200</a>
+              </div>
+            </div>
+
+            <!-- Dirección -->
+            <div class="contact-card-item">
+              <div class="contact-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h5>Salón y Taller Principal</h5>
+                <p data-config="address">Av. Warnes 1420, CABA, Buenos Aires</p>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">Estacionamiento y bahía de servicio exclusivo para clientes</span>
+              </div>
+            </div>
+
+            <!-- Instagram -->
+            <div class="contact-card-item">
+              <div class="contact-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h5>Instagram Oficial</h5>
+                <p>Novedades, ofertas semanales y trabajos realizados.</p>
+                <a href="https://instagram.com/neumaticosargentinos" target="_blank" rel="noopener noreferrer" data-config="instagram">@neumaticosargentinos</a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Tarjeta de Horarios y Ubicación -->
+          <div class="contact-map-card">
+            <div class="map-card-header">
+              <h4>Horarios de Atención</h4>
+              <p>Te esperamos en nuestro centro de servicios con atención por orden de llegada.</p>
+            </div>
+
+            <div class="schedule-block">
+              <div class="schedule-row">
+                <span class="schedule-day">Lunes a Viernes</span>
+                <span class="schedule-time" data-config="scheduleWeekdays">08:00 a 18:30 hs</span>
+              </div>
+              <div class="schedule-row">
+                <span class="schedule-day">Sábados</span>
+                <span class="schedule-time" data-config="scheduleSaturdays">08:30 a 13:30 hs</span>
+              </div>
+              <div class="schedule-row">
+                <span class="schedule-day">Domingos y Feriados</span>
+                <span class="schedule-time" style="color: var(--accent-amber);">Cerrado</span>
+              </div>
+            </div>
+
+            <div style="text-align: center;">
+              <a href="#" class="btn btn-primary js-whatsapp-general-btn" style="width: 100%;" target="_blank" rel="noopener noreferrer">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+                Iniciar Consulta por WhatsApp
+              </a>
+              <p style="margin-top: 14px; font-size: 0.8rem; color: var(--text-muted);">
+                Ubicados en el corazón de Warnes • Fácil acceso desde toda CABA y GBA
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-icon-wrapper">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" fill="none"/>
+                <circle cx="12" cy="12" r="3.5"/>
+              </svg>
+            </div>
+            <div class="brand-text-group">
+              <span class="brand-name" data-config="companyName">NEUMÁTICOS ARGENTINOS</span>
+              <span class="brand-tagline">Venta & Taller Automotor</span>
+            </div>
+          </div>
+          <p>
+            Especialistas en cubiertas y servicios para automóviles, camionetas, SUV y utilitarios. Asesoramiento técnico personalizado y garantía oficial.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Navegación</h5>
+          <ul class="footer-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#buscador">Buscar por vehículo</a></li>
+            <li><a href="#neumaticos">Categorías</a></li>
+            <li><a href="#empresa">Sobre la empresa</a></li>
+            <li><a href="#servicios">Servicios mecánicos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Categorías</h5>
+          <ul class="footer-links">
+            <li><a href="#neumaticos">Neumáticos para Autos</a></li>
+            <li><a href="#neumaticos">Neumáticos para SUV</a></li>
+            <li><a href="#neumaticos">Neumáticos Camioneta 4x4</a></li>
+            <li><a href="#neumaticos">Neumáticos Utilitarios</a></li>
+            <li><a href="#servicios">Alineación y Balanceo</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Contacto Directo</h5>
+          <ul class="footer-links">
+            <li><strong style="color: #fff;">WhatsApp:</strong> <span data-config="whatsappDisplay">+54 9 11 3456-7890</span></li>
+            <li><strong style="color: #fff;">Teléfono:</strong> <span data-config="phone">011 4855-9200</span></li>
+            <li><strong style="color: #fff;">Dirección:</strong> <span data-config="address">Av. Warnes 1420, CABA</span></li>
+            <li><strong style="color: #fff;">Instagram:</strong> <a href="https://instagram.com/neumaticosargentinos" target="_blank" rel="noopener noreferrer" data-config="instagram">@neumaticosargentinos</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © <span id="current-year">2026</span> <strong data-config="companyName">NEUMÁTICOS ARGENTINOS</strong>. Todos los derechos reservados. DEMO Funcional / MVP Comercial.
+        </div>
+        <div>
+          Precios y especificaciones sujetos a disponibilidad y validación técnica en taller.
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       BOTÓN FLOTANTE DE WHATSAPP
+       ========================================================================= -->
+  <a href="#" id="floating-whatsapp-btn" class="floating-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+    <span class="floating-whatsapp-tooltip">¿Dudas con tu medida? ¡Escribinos!</span>
+    <div class="floating-whatsapp-circle">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.367-12.513c-.282-.466-.779-.742-1.323-.742-1.127 0-2.457 1.156-3.033 2.054-1.189 1.854-2.181 3.906-2.936 6.096-.289.837-.849 1.488-1.639 1.895-.399.206-.729.508-.956.883-.357.589-.452 1.298-.266 1.964.331 1.182 1.157 2.164 2.275 2.705.807.39 1.716.48 2.584.256 1.159-.299 2.196-.988 2.983-1.979 1.241-1.565 2.234-3.324 2.946-5.204.301-.796.22-1.688-.222-2.417z"/>
+      </svg>
+    </div>
+  </a>
+
+  <!-- Fallback de Datos Locales Estáticos (Garantiza funcionamiento offline o sin servidor) -->
+  <script src="data/vehicles.data.js"></script>
+
+  <!-- Módulos de la Aplicación -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
